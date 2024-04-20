@@ -2,10 +2,44 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter_yCmUph": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_6nUKmb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_Cm7Agq": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our exclusive mailing list for latest promo updates and insights.</p>"
+          }
+        },
+        "email_form_LgRJQ9": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_6nUKmb",
+        "paragraph_Cm7Agq",
+        "email_form_LgRJQ9"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1df4372c-1638-414f-8f53-fe9ecd407865",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-765e707d-2f85-4fc1-b025-b5171174425f",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
@@ -21,6 +55,7 @@
     }
   },
   "order": [
+    "newsletter_yCmUph",
     "footer"
   ]
 }

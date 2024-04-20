@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Embark on a botanical journey with SAVONEYour plant paradise awaits!",
             "heading_size": "h0"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop Plants",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -27,9 +27,10 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/886e0659b29743b1695fb1b1599484ee.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
@@ -37,6 +38,46 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "collection_list_dDdLbm": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_9bWrTj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "decor-planters"
+          }
+        },
+        "featured_collection_eq99QD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blooming-plants"
+          }
+        },
+        "featured_collection_Mz6WAP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "care-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_9bWrTj",
+        "featured_collection_eq99QD",
+        "featured_collection_Mz6WAP"
+      ],
+      "settings": {
+        "title": "Most Popular Categories",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -66,10 +107,70 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "featured_blog_w7EgtD": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Why Savone Nursery?",
+        "heading_size": "h1",
+        "blog": "why-savone-nursery",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "text_box_aeUjia": {
+      "type": "text-box",
+      "settings": {
+        "custom_text_title": "Plant Gift Guide Quiz",
+        "custom_text_body": "<p>Shopping for someone else? We’ll help you find the perfect plant gift.</p>"
+      }
+    },
+    "video_GB7rX4": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_kJ9Ndj": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog Posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "collection_list_dDdLbm",
+    "featured_collection",
+    "featured_blog_w7EgtD",
+    "text_box_aeUjia",
+    "video_GB7rX4",
+    "featured_blog_kJ9Ndj"
   ]
 }

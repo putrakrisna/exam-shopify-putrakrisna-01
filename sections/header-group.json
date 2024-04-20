@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "New to Plants? Start Here - Shop Best Sellers",
             "link": ""
           }
         }
@@ -17,7 +17,7 @@
         "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-765e707d-2f85-4fc1-b025-b5171174425f",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
